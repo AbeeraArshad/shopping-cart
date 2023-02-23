@@ -1,0 +1,29 @@
+.descripcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    background-color: rgb(0, 98, 128);
+}
+
+.descripcard img {
+    width:400px;
+    height:auto;
+  }
+
+.topi img{
+    width:150px;
+    height:auto;
+}
+
+.btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    font-size: 18px;}

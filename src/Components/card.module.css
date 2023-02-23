@@ -1,0 +1,42 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(24, 53, 33, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    color:rgb(5, 22, 10);
+    background-color:rgb(0, 98, 128);
+    margin-top: 10px;
+    
+
+    
+  }
+
+  .price {
+    color: rgb(35, 32, 32);
+    font-size: 22px;
+  }
+
+  .btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    font-size: 18px;
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card img {
+    width:150px;
+    height:auto;
+  }
+  .cart img {
+    width:150px;
+    height:auto;
+
+  }
