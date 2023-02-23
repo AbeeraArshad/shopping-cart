@@ -13,7 +13,7 @@ test('contains an h1 element with the correct text', () => {
     const component = shallow(<Navbar />);
     const h1 = component.find('h1');
     expect(h1).toHaveLength(1);
-    expect(h1.text()).toBe('ALI SANNOBA');
+    expect(h1.text()).toBe('ALI SNOBBA');
   });
   
 

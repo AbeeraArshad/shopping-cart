@@ -2,8 +2,16 @@ import  {Navbar} from '../Components/Navbar'
 import {data} from '../Data/data'
 import { Card } from '../Components/Card'
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const ProductList = () =>{
+
+    const navigate = useNavigate();
+
+    function handleNavigation() {
+
+        navigate('/Descrip', { state: data })
+    }
     
     const[products ,setProducts] = useState([])
 

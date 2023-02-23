@@ -7,6 +7,7 @@ import './App.css';
 import Quantity from './Components/Quantity';
 import { ProductDetails } from './Pages/ProductDetails';
 import { ShoppingCart } from './Pages/ShoppingCart';
+import { CheckOut } from './Pages/CheckOut';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route element={<ProductList/>}path='/'></Route>
         <Route element={<ProductDetails/>}path='/Descrip'></Route>
         <Route element={<ShoppingCart/>}path='/shop'></Route> 
+        <Route element={<CheckOut/>}path='/logout'></Route> 
       </Routes>
       </Router>
        
